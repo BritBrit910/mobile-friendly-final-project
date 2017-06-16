@@ -1,0 +1,63 @@
+/* FONTS */
+
+
+/* GLOBALS */
+
+
+/* HEADER STYLES */
+
+.navbar {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.dropdown-toggle, .dropdown-menu, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .45);
+}
+
+/* CAROUSEL STYLES */
+
+.item {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+#forest-background {
+  background-image: url('../img/blueforest.jpg')
+}
+
+#landscape-background {
+  background-image: url('../img/landscape-cropped.jpg');
+}
+
+#pepsi-background {
+  background-image: url('../img/Drawings/pepsi.JPG');
+}
+
+#bodyart-background {
+  background-image: url('../img/Body-Art/top.JPG');
+}
+
+#digital-background {
+  background-image: url('../img/Digital-Art/nf.JPG');
+}
+
+.carousel-caption {
+  margin-bottom: 8%;
+}
+
+.btn-warning {
+  background-color: #F8512F;
+  border-color: #F8512F;
+}
+
+.btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open>.dropdown-toggle.btn-warning {
+  background-color: #d34326;
+  border-color: #d34326;
+}
