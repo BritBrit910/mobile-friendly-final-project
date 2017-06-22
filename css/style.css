@@ -3,6 +3,13 @@
 
 /* GLOBALS */
 
+.fredericka-font {
+  font-family: 'Fredericka the Great', serif;
+}
+
+.pompiere-font {
+  font-family: 'Pompiere', sans-serif;
+}
 
 /* HEADER STYLES */
 
@@ -24,7 +31,7 @@
 /* CAROUSEL STYLES */
 
 .item {
-  height: 500px;
+  min-height: 500px;
   background-position: center;
   background-size: cover;
 }
@@ -54,34 +61,30 @@
 }
 
 .btn-warning {
-  background-color: #33ffd6;
-  border-color: #33ffd6;
-  color: #006652;
-  font-family: 'Pompiere', sans-serif;
+  box-shadow: 2px 2px 5px #095676;
+  border-color: #83CED3;
+  background-color: #83CED3;
+  color: #095676;
   font-size: 24px;
 }
 
 .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open>.dropdown-toggle.btn-warning {
-  background-color: #00e6b8;
-  border-color: #00e6b8;
-  color: #006652;
-  font-family: 'Pompiere', sans-serif;
+  background-color: #4CA3B4;
+  border-color: #4CA3B4;
+  color: #095676;
   font-size: 24px;
 }
 
 .carousel-caption>h1 {
-  font-family: 'Fredericka the Great', serif;
   font-size: 100px;
   margin-bottom: 25px;
 }
 
 .carousel-caption>h2 {
-  font-family: 'Fredericka the Great', serif;
   font-size: 50px;
 }
 
 .carousel-caption>p {
-  font-family: 'Pompiere', sans-serif;
   margin-top: 15px;
   font-size: 36px;
 }
@@ -90,8 +93,72 @@
   color: #000;
 }
 
+/* ABOUT ME SECTION */
+
+#about-me {
+  min-height: 450px;
+  background-image: url('../img/blue-paint-texture.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about>h1 {
+  font-size: 80px;
+  margin-top: 150px;
+  color: #001E22;
+  text-shadow: 1px 1px 1px #001E22;
+}
+
+.about-summary {
+  font-size: 45px;
+  margin-top: 100px;
+  color: #001E22;
+  text-shadow: 1px 1px 1px #001E22;
+}
+
 /* PAINTINGS SECTION */
 
-.paintings {
+#paintings {
+  background-image: url('../img/art-portfolio-bg.png');
+  min-height: 700px;
+  background-size: cover;
+  background-position: top;
+}
 
+.title-one>h1 {
+  color: #83CED3;
+  font-size: 115px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.caption>h3 {
+  font-size: 35px;
+  color: #001E22;
+}
+
+.caption>p {
+  font-size: 30px;
+  color: #001E22;
+}
+
+.paint1 {
+  width: 350px;
+}
+
+.paint2 {
+  width: 350px;
+}
+
+.paint3 {
+  width: 258px;
+}
+
+.paint4 {
+  width: 202px;
+}
+
+.paint7 {
+  width:
 }

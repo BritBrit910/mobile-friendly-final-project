@@ -32,7 +32,7 @@
                 <li>
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Artwork<span class="caret"></span></a>
                   <ul class="dropdown-menu navbar">
-                    <li><a href="#">Paintings</a></li>
+                    <li><a href="#paintings">Paintings</a></li>
                     <li><a href="#">Drawings</a></li>
                     <li><a href="#">Body Art</a></li>
                     <li><a href="#">Digital Art</a></li>
@@ -49,73 +49,164 @@
     <!-- Navbar Ends -->
 
     <!-- Carousel Begins -->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-        </ol>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+      </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner caption-white" role="listbox" id="home">
-          <div class="item active" id="forest-background"> <!-- First Slide -->
-            <div class="carousel-caption">
-              <h1>Brittney Banta</h1>
-              <p>A portfolio of all my artwork</p>
-            </div>
-          </div>
-
-          <div class="item" id="landscape-background"> <!-- Second Slide -->
-            <div class="carousel-caption black-text-slide">
-              <h2>Acrylic Paintings</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, provident.</p>
-              <button type="button" class="btn btn-warning btn-lg">Learn More</button>
-            </div>
-          </div>
-
-          <div class="item" id="pepsi-background"> <!-- Third Slide -->
-            <div class="carousel-caption black-text-slide">
-              <h2>Pen & Pencil Drawings</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, amet.</p>
-              <button type="button" class="btn btn-warning btn-lg">Browse Gallery</button>
-            </div>
-          </div>
-
-          <div class="item" id="bodyart-background"> <!-- Fourth Slide -->
-            <div class="carousel-caption">
-              <h2>Body Art & Facepaint</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, rerum.</p>
-              <button type="button" class="btn btn-warning btn-lg">Browse Gallery</button>
-            </div>
-          </div>
-
-          <div class="item" id="digital-background"> <!-- Fifth Slide -->
-            <div class="carousel-caption">
-              <h2>Graphic Design Artwork</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, natus.</p>
-              <button type="button" class="btn btn-warning btn-lg">Browse Gallery</button>
-            </div>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner caption-white" role="listbox" id="home">
+        <div class="item active" id="forest-background"> <!-- First Slide -->
+          <div class="carousel-caption">
+            <h1 class="fredericka-font">Brittney Banta</h1>
+            <p class="pompiere-font">A portfolio of all my artwork</p>
           </div>
         </div>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="item" id="landscape-background"> <!-- Second Slide -->
+          <div class="carousel-caption black-text-slide">
+            <h2 class="fredericka-font">Acrylic Paintings</h2>
+            <p class="pompiere-font">Original paintings created using various acrylic paints.</p>
+            <button type="button" class="btn btn-warning btn-lg pompiere-font">View Paintings</button>
+          </div>
+        </div>
+
+        <div class="item" id="pepsi-background"> <!-- Third Slide -->
+          <div class="carousel-caption black-text-slide">
+            <h2 class="fredericka-font">Pen & Pencil Drawings</h2>
+            <p class="pompiere-font">Drawings made with pencils, colored pencils, or ink pens.</p>
+            <button type="button" class="btn btn-warning btn-lg pompiere-font">View Drawings</button>
+          </div>
+        </div>
+
+        <div class="item" id="bodyart-background"> <!-- Fourth Slide -->
+          <div class="carousel-caption">
+            <h2 class="fredericka-font">Body Art & Facepaint</h2>
+            <p class="pompiere-font">Artwork placed onto my own, or somebody else's body typically with facepaints.</p>
+            <button type="button" class="btn btn-warning btn-lg pompiere-font">View Body Art</button>
+          </div>
+        </div>
+
+        <div class="item" id="digital-background"> <!-- Fifth Slide -->
+          <div class="carousel-caption">
+            <h2 class="fredericka-font">Graphic Design Artwork</h2>
+            <p class="pompiere-font">Art pieces designed using online programs such as Photoshop and Illustrator.</p>
+            <button type="button" class="btn btn-warning btn-lg pompiere-font">View Digital Art</button>
+          </div>
+        </div>
       </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
     <!-- Carousel Ends -->
 
-    <div class="paintings">
-      
+    <!-- About Me Section Begins -->
+    <div class="container-fluid" id="about-me">
+      <div class="row">
+        <div class="col-sm-6 text-center fredericka-font about">
+          <h1>A little about me</h1>
+        </div>
+        <div class="col-sm-6 text-center">
+          <p class="pompiere-font about-summary">I am a 17 year old Artist and Graphic Designer from California who loves to create new things. I want to share my creations with the world and put my work out there for all to see.</p>
+        </div>
+      </div>
     </div>
+    <!-- About Me Section Ends -->
+
+    <!-- Paintings Section Begins -->
+    <div class="container-fluid" id="paintings">
+      <div class="row">
+        <div class="text-center fredericka-font title-one">
+        <h1>Paintings</h1>
+        </div>
+      <!-- Painting 1 -->
+        <div class="col-xs-6 col-sm-3">
+          <div class="thumbnail">
+            <a href="img/Paintings/landscape.JPG" target="blank"><img src="img/Paintings/landscape.JPG" alt="Landscape Painting"  class="img-responsive img-thumbnail paint1"></a>
+            <div class="caption">
+              <h3 class="text-center fredericka-font">Green Landscape</h3>
+              <p class="text-justify pompiere-font">My first Acrylic landscape created using mainly shades of green.</p>
+            </div>
+          </div>
+        </div>
+      <!-- Painting 2 -->
+        <div class="col-xs-6 col-sm-3">
+          <div class="thumbnail">
+            <img src="img/Paintings/trees.JPG" alt="Olive Trees Painting"  class="img-responsive img-thumbnail paint2">
+            <div class="caption">
+              <h3 class="text-center fredericka-font">Olive Trees</h3>
+              <p class="text-justify pompiere-font">Original acrylic landscape of a meadow and some olive trees.</p>
+            </div>
+          </div>
+        </div>
+      <!-- Painting 3 -->
+        <div class="col-xs-6 col-sm-3">
+          <div class="thumbnail">
+            <img src="img/Paintings/river.JPG" alt="River Painting"  class="img-responsive img-thumbnail paint3">
+            <div class="caption">
+              <h3 class="text-center fredericka-font">River Landscape</h3>
+              <p class="text-justify pompiere-font">Acrylic painting of a river with some greenery behind it.</p>
+            </div>
+          </div>
+        </div>
+      <!-- Painting 4 -->
+        <div class="col-xs-6 col-sm-3">
+          <div class="thumbnail">
+            <img src="img/Paintings/shaver.JPG" alt="Shaver Lake Painting"  class="img-responsive img-thumbnail paint4">
+            <div class="caption">
+              <h3 class="text-center fredericka-font">Shaver Lake</h3>
+              <p class="text-justify pompiere-font">A Painterly style acrylic painting of the forest in Shaver Lake, CA.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      <!-- Painting 5 -->
+        <div class="col-xs-6 col-sm-3">
+          <div class="thumbnail">
+            <img src="img/Paintings/mirror.JPG" alt="Mirror Painting"  class="img-responsive img-thumbnail paint1">
+            <div class="caption">
+              <h3 class="text-center fredericka-font">Mirror Landscape</h3>
+              <p class="text-justify pompiere-font">A sunset landscape with mirror shards placed onto the colorful sky.</p>
+            </div>
+          </div>
+        </div>
+      <!-- Painting 6 -->
+        <div class="col-xs-6 col-sm-3">
+          <div class="thumbnail">
+            <img src="img/Paintings/fireman.JPG" alt="Fireman Painting"  class="img-responsive img-thumbnail paint2">
+            <div class="caption">
+              <h3 class="text-center fredericka-font">Fireman</h3>
+              <p class="text-justify pompiere-font">Painting depicting fireman as the real heroes. Dedicated to my father.</p>
+            </div>
+          </div>
+        </div>
+      <!-- Painting 7 -->
+        <div class="col-xs-6 col-sm-3">
+          <div class="thumbnail">
+            <img src="img/Paintings/door.JPG" alt="Door Painting"  class="img-responsive img-thumbnail paint7">
+            <div class="caption">
+              <h3 class="text-center fredericka-font">Colorful Door</h3>
+              <p class="text-justify pompiere-font">A colorful acrylic I had created on my closet door.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Paintings Section Ends -->
 
     <!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
