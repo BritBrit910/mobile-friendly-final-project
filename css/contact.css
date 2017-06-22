@@ -1,0 +1,28 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Pompiere');
+
+/* GLOBALS */
+
+.fredericka-font {
+  font-family: 'Fredericka the Great', serif;
+}
+
+.pompiere-font {
+  font-family: 'Pompiere', sans-serif;
+}
+
+/* HEADER STYLES */
+
+.navbar {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a, .dropdown-toggle>li>a, .dropdown-menu>li>a{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .45);
+}
