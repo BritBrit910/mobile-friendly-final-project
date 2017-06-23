@@ -40,10 +40,42 @@
   margin-top: 40px;
 }
 
-/* DESCRIPTION SECTION */
+/* CONTACT SECTION */
 
-.description {
-  min-height: 800px;
+#contact {
+  background-image: url('../img/marble.jpg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contact-margin {
+  margin: 50px 150px;
+  width: 50%;
+}
+
+.contact-margin>h1 {
+  font-size: 50px;
+}
+
+.contact-margin>p {
+  font-size: 25px;
+}
+
+.white-text {
+  color: #095676;
+}
+
+.contact-form {
+  background-color: #83CED3;
+  padding: 10px;
+  border-color: 1px solid #83CED3;
+  border-radius: 10px;
+  box-shadow: -10px 10px 15px #095676;
+}
+
+.form-group {
+  margin: 10px;
 }
 
 /* FOOTER SECTION */
