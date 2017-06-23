@@ -26,3 +26,44 @@
   color: #fff;
   background-color: rgba(0, 0, 0, .45);
 }
+
+/* CONTACT ME SECTION */
+
+.contact-page {
+  min-height: 200px;
+  background-color: #095676;
+}
+
+.contact-page>h1 {
+  font-size: 100px;
+  color: #83CED3;
+  margin-top: 40px;
+}
+
+/* DESCRIPTION SECTION */
+
+.description {
+  min-height: 800px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  min-height: 150px;
+  background-color: #095676;
+}
+
+.fa {
+    padding: 45px;
+    margin: 0px 50px;
+    font-size: 100px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}

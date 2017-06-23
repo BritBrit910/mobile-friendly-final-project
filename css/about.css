@@ -39,3 +39,58 @@
   color: #83CED3;
   margin-top: 40px;
 }
+
+/* DESCRIPTION SECTION */
+
+#about {
+  background-image: url('../img/marble.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.description {
+  min-height: 400px;
+}
+
+.jumbotron {
+  background-color: #83CED3;
+  width: 33%;
+  padding: 15px;
+  margin-top: 100px;
+  color: #095676;
+  box-shadow: -10px 10px 15px #095676;
+}
+
+.jumbotron>p {
+  font-size: 30px;
+}
+
+.margin-left {
+  margin-left: 200px;
+}
+
+.margin-right {
+  margin-left: 800px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  min-height: 150px;
+  background-color: #095676;
+}
+
+.fa {
+    padding: 45px;
+    margin: 0px 50px;
+    font-size: 100px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
